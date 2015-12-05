@@ -1,0 +1,12 @@
+7.2.1.22540macs:Mac OS X10.10.5SntFC1449354227207D1449355588641D1449355896910D1449356165844D1449356270243D1449356345423D1449356450599S2006817a = da = a@u u = u/x /y ((Cube(x) & Cube(y)) $ /z Between(z, x, y))@x ((Cube(x) & Small(x)) $ /y (Cube(y) & BackOf(y, x)))
+; Bozo wants to say that all small cubes have a cube in back of them./x /y (x # y)
+; Bozo is trying to say that there are at least two blocks in the world.@x (Cube(x) $ ~Medium(x))
+; Bozo would like to say that no cubes are medium.@x @y ((Cube(x) & Cube(y) & ~ SameSize(x,  y)) $ 
+                       /z (Tet(z) & Between(z, x, y)))
+; Help Bozo say that cubes of different sizes have a tetrahedron between them.@x /y (((Tet(x) & Large(x) & Small(y))) $ FrontOf(y, x))~/x /y(Dodec(x) & Dodec(y) & Smaller(y, x))@x ((Medium(x) & Cube(x)) $ Tet(x))
+; Bozo wants to say that all medium cubes are tetrahedra./x /y (Cube(x) & Cube(y) & Between(b , y, x)  & @z (Between(z, y, x) $ b = z))
+; Help Bozo say that there are two cubes that have only b between them.@x ~/y Adjoins(x, y)/x ~Cube(x)@x (Tet(x) $ (Large(x) $ ~/y BackOf(y, x)))
+; There are two different ways of adding 
+; parentheses that can turn this into a sentence,
+; but only one way will make the sentence true.Cube(a) % (Tet(b) % Cube(c))@x ((Tet(x) & x # b) $ FrontOf(b,x))
+; Bozo is trying to say that b is in front of all other tetrahedra.s=219431;

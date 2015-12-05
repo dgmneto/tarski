@@ -1,0 +1,20 @@
+2. Não é possível construir um mundo com tais especificações:
+- Para que a sentença 3 seja verdadeira, temos que todo objeto deve ser um
+tetaedro e, ao mesmo tempo, pequeno;
+- Para que a sentença 4 seja verdadeira, basta que todo objeto que é um
+tetraedro seja pequeno;
+- Dessa forma, sempre que todo objeto for um tetraedro e pequeno(condição para
+a sentença 3 ser verdadeira), todo objeto que é um tetrado é pequeno(condição
+para a sentença 4 ser verdadeira);
+- Logo, sempre que a sentença 3 for verdadeira, a sentenca 4 é verdadeira.
+
+3. De forma semelhante, não é possível construir um mundo com tais
+especificações:
+- Para que a sentença 1 seja verdadeira, temos que um objeto deve ser um
+dodecaedro e, ao mesmo tempo, grande;
+- Para que a sentença 2 seja verdadeira, basta que um objeto que é um
+dodecaedro seja grande;
+- Dessa forma, sempre que um objeto for um dodecaedro e grande(condição para
+a sentença 1 ser verdadeira), um objeto que é um dodecaedro é grande(condição
+para a sentença 2 ser verdadeira);
+- Logo, sempre que a sentença 1 for verdadeira, a sentenca 2 é verdadeira.
